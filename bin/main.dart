@@ -1,9 +1,9 @@
 import 'dart:ffi';
 import 'dart:io';
 
-import 'package:algorithms/binray_tree.dart';
+import 'package:algorithms/binary_tree.dart';
 import 'package:algorithms/graphs.dart';
-import 'package:algorithms/linkedList.dart';
+import 'package:algorithms/linked_list.dart';
 
 void main(List<String> arguments) {
   final list = LinkedList();
@@ -156,10 +156,6 @@ void insertToTree(BinaryNode<int>? root, int value) {
       }
     }
   }
-}
-
-int calculate() {
-  return 42;
 }
 
 void levelOrder(BinaryNode<int>? root) {
