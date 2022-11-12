@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 
-import '../bin/algorithms.dart';
+import '../bin/main.dart';
 
 void main() {
   test('calculate', () {
