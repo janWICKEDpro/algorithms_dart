@@ -124,7 +124,7 @@ class LinkedList {
   }
 
   void swap(int target) {
-    Node? prev, curr = head
+    Node? prev, curr = head, prev_prev;
 
     while (curr?.val != target) {
       prev_prev = prev;
@@ -132,8 +132,6 @@ class LinkedList {
       curr = curr?.next;
     }
     if (prev == head) {
-      // prev?.next = curr?.next;
-      // curr?.next = prev;
       head = curr;
     }
     prev_prev?.next = curr;
