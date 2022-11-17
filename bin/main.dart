@@ -110,7 +110,7 @@ Node? mergeTwo(Node? l1, Node? l2) {
   return newList;
 }
 
-///create bina
+///create binary tree
 BinaryNode<int> createBinaryTree() {
   final zero = BinaryNode(0);
   final one = BinaryNode(1);
